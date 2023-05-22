@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: server_pool
+pool: 
+  name: server_pool 
   vmImage: 'nodejsvm'
 
 steps:
