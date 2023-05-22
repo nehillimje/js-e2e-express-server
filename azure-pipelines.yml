@@ -6,8 +6,8 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: server_pool
+  vmImage: 'nodejsvm'
 
 steps:
 - task: NodeTool@0
